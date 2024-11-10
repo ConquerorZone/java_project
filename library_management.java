@@ -155,6 +155,7 @@ public class library_management {
 
 
         }
+        sc.close();
     }
 
 } }

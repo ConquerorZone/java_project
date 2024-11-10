@@ -5,7 +5,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Scanner;
 
 
-public class MD {
+public class MD5_Encryption {
    public static String Md5Example(String s){
     
     

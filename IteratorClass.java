@@ -1,5 +1,5 @@
 import java.util.*;
-public class Iterator_class{
+public class IteratorClass{
 	
    static Iterator func(ArrayList mylist){
       Iterator it=mylist.iterator();
@@ -32,6 +32,7 @@ public class Iterator_class{
       while(it.hasNext()){
          Object element = it.next();
          System.out.println((String)element);
+         sc.close();
       }
    }
 }

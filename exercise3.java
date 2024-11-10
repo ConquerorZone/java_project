@@ -28,7 +28,7 @@ class game {
     public void check() {
         score++;
         if (Random_no == input_no) {
-            System.out.println("guess is correct")
+            System.out.println("guess is correct");
 
         } else if (Random_no < input_no) {
             System.out.println("take a lesser number");
